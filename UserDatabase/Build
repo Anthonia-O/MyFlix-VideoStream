@@ -1,5 +1,5 @@
 mkdir -p data
-sudo docker run -p 33061:3306 --name my-mysql -e MYSQL_ROOT_PASSWORD=secret -v "$PWD/data":/var/lib/mysql -d mysql:8.0
+sudo docker run -p 33060:3306 --name my-mysql -e MYSQL_ROOT_PASSWORD=secret -v "$PWD/data":/var/lib/mysql -d mysql:8.0
 sleep 30
 sudo docker exec -i my-mysql mysql -uroot -psecret <<EOF
 CREATE DATABASE IF NOT EXISTS users;
