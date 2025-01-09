@@ -11,4 +11,22 @@ CREATE TABLE IF NOT EXISTS accounts (
 );
 INSERT INTO accounts (email, password)
 VALUES ('test@example.com', 'test123');
+
+-- Create `customers` table
+CREATE TABLE IF NOT EXISTS customers (
+    id SERIAL PRIMARY KEY,
+    stripe_customer_id VARCHAR(255) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create `subscriptions` table
+CREATE TABLE IF NOT EXISTS subscriptions (
+    id SERIAL PRIMARY KEY,
+    stripe_subscription_id VARCHAR(255) NOT NULL UNIQUE,
+    customer_id INT NOT NULL REFERENCES customers(id) ON DELETE CASCADE,
+    status VARCHAR(50) NOT NULL,
+    price_id VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 EOF
