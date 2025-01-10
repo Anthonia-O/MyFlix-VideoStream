@@ -1,23 +1,26 @@
 {
     "video": {
         "name": "Big Buck Bunny",
-        "thumbnail": "Big_buck_bunny.jpg",
+        "id":"video1",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Big+Buck+Bunny.mp4",
         "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Big+Buck+Bunny.mp4"
     }
 }
 {
     "video": {
-        "name": "Taylor's_version",
-        "thumbnail": "Taylor's Version.jpg",
+        "name": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Taylor's_version.mp4",
+        "id": "video2",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Taylor's_version.mp4",
         "description": "Two men realise they're grappling with their love lives by posing to understand Taylor Swift.'What started as an actual conversation with a close friend, the grimmest man I know, blurting the words - 'I love Taylor Swift', left me contemplating about the Anthropocene.'Writer, Director & Editor - Pranav Bhasin Cast - Vvansh Sethi, Eklavey Kashyap (& Bhumika Ahuja).",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Taylor's_version.mp4"
     }
 }
 {
-    "video": {
+    "video":  {
         "name": "caminandes",
-        "thumbnail": "Caminandes.jpg",
+        "id": "video3",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/caminandes.mp4",
         "description": "In this episode of the Caminandes cartoon series we learn to know our hero Koro even better! It's winter in Patagonia, food is getting scarce. Koro the Llama engages with Oti the pesky penguin, in an epic fight over that last tasty berry.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/caminandes.mp4"
     }
@@ -25,7 +28,8 @@
 {
     "video": {
         "name": "Bimbo's Express",
-        "thumbnail": "Bimbo's Express.jpg",
+        "id": "video4",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Bimbo's+Express.mp4",
         "description": "Bimbo shows up at Betty's door with his assistants to help Betty move from her house. Bimbo takes one glance at Betty, and falls in love with her. Bimbo then sings 'Hello Beautiful' to Betty in Maurice Chevalier's voice. They then load up the moving van with all of her belongings (even the stairs) and Betty sits up into the driver's seat with Bimbo. She then moves 'around the corner'.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Bimbo's+Express.mp4"
     }
@@ -33,7 +37,8 @@
 {
     "video": {
         "name": "Betty Boop Bimbo's Initiation",
-        "thumbnail": "Bimbo's Initiation.jpg",
+        "id": "video5",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Bimbo's+Express.mp4",
         "description": "Bimbo the Dog comes face to face with the mysterious cult of 'The Mystic Order of The Koo-Koo-Ma-Hatcha' after Mickey Mouse locks him in a sewer. He then has to go through many torturous experiences as the cultists try to convert him to their cause.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Betty+Boop+Bimbo's+Initiation.mp4"
     }
@@ -41,7 +46,8 @@
 {
     "video": {
         "name": "Detouring Thru Maine",
-        "thumbnail": "Detouring Thru Maine.jpg",
+        "id": "video6",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Detouring+Thru+Maine.mp4",
         "description": "Detouring Thru Maine is a 1950 animated short film with music that includes blackout gags, references to Maine wildlife, and the song 'The Maine Stein Song'",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Detouring+Thru+Maine.mp4"
     }
@@ -49,7 +55,8 @@
 {
     "video": {
         "name": "Why Play Leap Frog",
-        "thumbnail": "Why Play Leap Frog.jpg",
+        "id": "video7",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Why+Play+Leap+Frog.mp4",
         "description": "Joe, who works at a doll factory, gets an economics lesson explaining why a doll that has only ten cents worth of materials costs two dollars at the toy shop.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Why+Play+Leap+Frog.mp4"
     }
@@ -57,8 +64,241 @@
 {
     "video": {
         "name": "Doggone Tired",
-        "thumbnail": "Doggone_Tired.jpg",
+        "id": "video8",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Doggone+Tired.mp4",
         "description": "Doggone Tired is a 1949 cartoon short directed by Tex Avery. Doggone Tired is one of three MGM cartoons currently in the public domain in the United States.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Doggone+Tired.mp4"
     }
 }
+
+
+{
+    "video": {
+        "name": "Toys Will Be Toys",
+        "id": "video9",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Toys+Will+Be+Toys.mp4",
+        "description": "Toys in a toy store come to life at night, and perform in a toy parade before the Doll Princess, all of which leads to the 'Screen Song' sing-a-long, 'Oh, You Beautiful Doll'. Watch for Koko the Clown and Popeye in cameo appearances and caricatures of Harpo Marx and Bob Hope (his head appears as a 'Ski Slide').",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Toys+Will+Be+Toys.mp4"
+    }
+}
+
+
+
+
+{
+    "video": {
+        "name": "Campus Capers (TV)",
+        "id": "video10",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Campus+Capers+(TV).mp4",
+        "description": "Herman gets back at Knucklehead from cat college Quinston for crashing the Harbard (the mice's college) Alumni Dinner.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Campus+Capers+(TV).mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "So Much for So Little",
+        "id": "video11",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/So+Much+for+So+Little.mp4",
+        "description": "So Much for So Little is a 1949 American animated short documentary film directed by Chuck Jones and Friz Freleng. In 1950, it won an Oscar at the 22nd Academy Awards for Documentary Short Subject, tying with A Chance to Live.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/So+Much+for+So+Little.mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "The Spring Song",
+        "id": "video12",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Spring+Song.mp4",
+        "description": "Winter comes to an end as a wood nymph plays his flute to Mendelsohn's 'Spring Song'.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Spring+Song.mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "A Mutt in a Rut",
+        "id": "video13",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Mutt+in+a+Rut.mp4",
+        "description": "A Mutt in a Rut is a 1959 Warner Bros. Looney Tunes animated short directed by Robert McKimson. The short was released on May 23, 1959 and features Elmer Fudd. The story concerns Elmer's dog, 'Rover', who, after watching a television show about dogs, is determined to protest how he is treated, but after going hunting, every intention to hurt or kill Elmer backfires on him...in a good way. This is one of only a few storylines featuring Elmer Fudd wherein nothing disastrous happens to Elmer.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Mutt+in+a+Rut.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "The Little Cut Up (TV)",
+        "id": "video14",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Little+Cut+Up+(TV).mp4",
+        "description": "Little George Washington encounters many forest creatures while chopping down the cherry tree.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Little+Cut+Up+(TV).mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "The Sailor and the Seagull",
+        "id": "video15",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Sailor+and+the+Seagull.mp4",
+        "description": "McGinty is tired of being in the Navy and wants out, a passing seagull shows him a vision of what his life would be like as a civilian, McGinty then wonders if civilian life is all it's cracked up to be.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Sailor+and+the+Seagull.mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "Puss n' Booty",
+        "id": "video16",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Puss+n'+Booty.mp4",
+        "description": "A pet owner comes home to find that her pet canary Dicky is gone. As she searches around, her cat Rudolph burps the feathers of Dicky, but also stages that Dicky flew out the window. Stating that's the fifth canary that flew out on her, she calls the pet shop to get her a new bird. As the delivery truck arrives, Rudolph waits outside in hopes to get another meal. He peeps inside of the cage, revealing a small bird who shivers on sight of the cat, fearing impending doom from being eaten.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Puss+n'+Booty.mp4",
+    }
+}
+
+{
+    "video": {
+        "name": "A Corny Concerto",
+        "id": "video17",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Corny+Concerto.mp4",
+        "description": "A Corny Concerto is a 1943 Warner Bros. Merrie Melodies directed by Bob Clampett. The short was released on September 25, 1943, and stars Bugs Bunny, Porky Pig, Elmer Fudd and Daffy Duck.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Corny+Concerto.mp4"
+    }
+}
+
+
+{
+    "video": {
+        "name": "Secret Agent",
+        "id": "video18",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Secret+Agent.mp4",
+        "description": "Secret Agent (1943) is the last of seventeen animated Technicolor short films based upon the DC Comics character Superman. Produced by Famous Studios, the cartoon was originally released to theaters by Paramount Pictures on July 30, 1943. This is the only short in which Lois Lane doesn't appear, although a female federal agent who looks identical to Lois (just with blonde hair) appears, and is also voiced by Joan Alexander.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Secret+Agent.mp4"
+    }
+}
+{
+    "video": {
+        "name": "Wackiki Wabbit",
+        "id": "video20",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Wackiki+Wabbit.mp4",
+        "description": "Wackiki Wabbit is a 1943 Warner Bros. Merrie Melodies cartoon, starring Bugs Bunny. It was released on July 3, 1943, and was written by Tedd Pierce and directed by Chuck Jones.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Wackiki+Wabbit.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "The Underground World",
+        "id": "video21",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Underground+World.mp4",
+        "description": "The Underground World (1943) is the sixteenth of seventeen animated Technicolor short films based upon the DC Comics character Superman. Directed by Seymour Kneitel and produced by Famous Studios, the cartoon was originally released to theaters by Paramount Pictures on June 18, 1943.It marks the final appearance of Lois Lane in a Superman cartoon.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Underground+World.mp4"
+    }
+}  
+{
+    "video": {
+        "name": "Yankee Doodle Daffy",
+        "id": "video22",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Yankee+Doodle+Daffy.mp4",
+        "description": "Yankee Doodle Daffy is a Warner Bros. Looney Tunes theatrical cartoon short released on June 5, 1943, directed by Friz Freleng and written by Tedd Pierce. The short was the second Technicolor Looney Tunes entry to feature Porky Pig and Daffy Duck (after My Favorite Duck). It is also one of the handfuls of Looney Tunes and Merrie Melodies to have entered into the public domain.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Underground+World.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "Jungle Drums",
+        "id": "video23",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Jungle+Drums.mp4",
+        "description": "Jungle Drums (1943) is the fifteenth of seventeen animated Technicolor short films based upon the DC Comics character of Superman. Produced by Famous Studios, the cartoon was originally released to theaters by Paramount Pictures on March 26, 1943.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Jungle+Drums.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "Hop and Go.ia",
+        "id": "video24",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Hop+and+Go.ia.mp4",
+        "description": "Hop and Go is a 1943 Warner Bros. Looney Tunes animated cartoon directed by Norman McCabe and animated by Cal Dalton. The short was released on March 27, 1943. It stars the voices of Pinto Colvig (Claude Hopper) and Mel Blanc (Scottish Rabbits and baby bird).",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Hop+and+Go.ia.mp4"
+    }
+} 
+{
+    "video": {
+        "name": "The Mummy Strikes",
+        "id": "video25",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Mummy+Strikes.mp4",
+        "description": "The Mummy Strikes (1943) is the fourteenth of seventeen animated Technicolor short films based upon the DC Comics character of Superman. Produced by Famous Studios, the cartoon was originally released to theaters by Paramount Pictures on February 19, 1943.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Mummy+Strikes.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "Point Rationing of Foods",
+        "id": "video26",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Point+Rationing+of+Foods.mp4",
+        "description": "Animated documentary short film demonstrating the reasons and methods of the point system of wartime food rationing.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Point+Rationing+of+Foods.mp4"
+    }
+}
+
+{
+    "video": {
+        "name": "Small Fry",
+        "id": "video27",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Small+Fry.mp4",
+        "description": "Junior wants to be a Big Fry, but learns the hard way that he just isn't ready for smoking in the pool room when he should be in the school room.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Small+Fry.mp4"
+    }
+} 
+{
+    "video": {
+        "name": "A Day at the Zoo",
+        "id": "video28",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Day+at+the+Zoo.mp4",
+        "description": "A Day at the Zoo is a 1939 Warner Bros. Merrie Melodies cartoon supervised by Tex Avery. The short was produced in 1938 and released on March 11, 1939 and features an early version of Elmer Fudd",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Day+at+the+Zoo.mp4"
+    }
+} 
+{
+    "video": {
+        "name": "Hamateur Night",
+        "id": "video29",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Hamateur+Night.mp4",
+        "description": "Hamateur Night is a 1939 Warner Bros. Merrie Melodies cartoon directed by Tex Avery and written by Jack Miller. The short was released on January 28, 1939 and features an early version of Elmer Fudd.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Hamateur+Night.mp4"
+    }
+} 
+{
+    "video": {
+        "name": "Customers Wanted",
+        "id": "video30",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Hamateur+Night.mp4",
+        "description": "Popeye and Bluto compete in their penny arcades for Wimpy's business.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Customers+Wanted.mp4"
+    }
+} 
+{
+    "video": {
+        "name": "Bosko's Fox Hunt",
+        "id": "video31",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Bosko's+Fox+Hunt.mp4",
+        "description": "A gang of male animals set out on a fox hunt equipped with guns, horses and hounds; however, a fox evades them. The fox is discovered by Bosko and his dog, Bruno, who are out hunting foxes as well. The fox successfully evades Bosko and Bruno's attempts to catch or shoot him. Eventually, the two hunters are chased by a large mammoth-like creature, or maybe a wild boar, and fall in a heap on the ground, ending the film.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Bosko's+Fox+Hunt.mp4"
+    }
+}  
+{
+    "video": {
+        "name": "Minding the Baby",
+        "id": "video32",
+        "thumbnailUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Minding+the+Baby.mp4",
+        "description": "Bimbo's mom has fallen out with her husband and has had an affair with the ice man. Bimbo's mother goes shopping and leaves Bimbo in charge of his baby brother, Aloysius. Betty Boop wants Bimbo to come over to her house to play. Bimbo then sneaks over to Betty's. Aloysius misbehaves while Bimbo is over at Betty's apartment. Aloysius then uses a vacuum cleaner and vacuums Betty and Bimbo from next door and his mother from off the street. Bimbo's mother is furious, as Betty, Bimbo and Aloysius hide behind a chair in Bimbo's apartment. Aloysius starts to cry, Bimbo then zips his brother's mouth shut.",
+        "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Minding+the+Baby.mp4"
+    }
+}  
