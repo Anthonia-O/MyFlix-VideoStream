@@ -70,8 +70,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Doggone+Tired.mp4"
     }
 }
-
-
 {
     "video": {
         "name": "Toys Will Be Toys",
@@ -81,10 +79,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Toys+Will+Be+Toys.mp4"
     }
 }
-
-
-
-
 {
     "video": {
         "name": "Campus Capers (TV)",
@@ -94,8 +88,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Campus+Capers+(TV).mp4"
     }
 }
-
-
 {
     "video": {
         "name": "So Much for So Little",
@@ -105,8 +97,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/So+Much+for+So+Little.mp4"
     }
 }
-
-
 {
     "video": {
         "name": "The Spring Song",
@@ -116,8 +106,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Spring+Song.mp4"
     }
 }
-
-
 {
     "video": {
         "name": "A Mutt in a Rut",
@@ -127,7 +115,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Mutt+in+a+Rut.mp4"
     }
 }
-
 {
     "video": {
         "name": "The Little Cut Up (TV)",
@@ -137,8 +124,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Little+Cut+Up+(TV).mp4"
     }
 }
-
-
 {
     "video": {
         "name": "The Sailor and the Seagull",
@@ -148,8 +133,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Sailor+and+the+Seagull.mp4"
     }
 }
-
-
 {
     "video": {
         "name": "Puss n' Booty",
@@ -159,7 +142,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Puss+n'+Booty.mp4",
     }
 }
-
 {
     "video": {
         "name": "A Corny Concerto",
@@ -169,8 +151,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/A+Corny+Concerto.mp4"
     }
 }
-
-
 {
     "video": {
         "name": "Secret Agent",
@@ -189,7 +169,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Wackiki+Wabbit.mp4"
     }
 }
-
 {
     "video": {
         "name": "The Underground World",
@@ -208,7 +187,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Underground+World.mp4"
     }
 }
-
 {
     "video": {
         "name": "Jungle Drums",
@@ -218,7 +196,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Jungle+Drums.mp4"
     }
 }
-
 {
     "video": {
         "name": "Hop and Go.ia",
@@ -237,7 +214,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/The+Mummy+Strikes.mp4"
     }
 }
-
 {
     "video": {
         "name": "Point Rationing of Foods",
@@ -247,7 +223,6 @@
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Point+Rationing+of+Foods.mp4"
     }
 }
-
 {
     "video": {
         "name": "Small Fry",
@@ -301,4 +276,4 @@
         "description": "Bimbo's mom has fallen out with her husband and has had an affair with the ice man. Bimbo's mother goes shopping and leaves Bimbo in charge of his baby brother, Aloysius. Betty Boop wants Bimbo to come over to her house to play. Bimbo then sneaks over to Betty's. Aloysius misbehaves while Bimbo is over at Betty's apartment. Aloysius then uses a vacuum cleaner and vacuums Betty and Bimbo from next door and his mother from off the street. Bimbo's mother is furious, as Betty, Bimbo and Aloysius hide behind a chair in Bimbo's apartment. Aloysius starts to cry, Bimbo then zips his brother's mouth shut.",
         "videoUrl": "https://anthoniaflixbucket.s3.us-east-1.amazonaws.com/myflixVideos/Minding+the+Baby.mp4"
     }
-}  
+}
