@@ -1,0 +1,62 @@
+networks:
+  myflix-network:
+    name: myflix_myflix-network
+    driver: bridge
+
+services:
+  frontend:
+    build:
+      context: ./frontend/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-gateway
+    networks:
+      - myflix-network
+
+  api-gateway:
+    build:
+      context: ./api-gateway/
+    ports:
+      - "5000:5000"
+    networks:
+      - myflix-network
+    depends_on:
+      - authentication
+      - billing
+      - video-management
+      - watchlist
+
+  authentication:
+    build:
+      context: ./backend/authentication
+    ports:
+      - "4001:4001"
+    networks:
+      - myflix-network
+
+  billing:
+    build:
+      context: ./backend/billing
+    ports:
+      - "4002:4002"
+    env_file:
+      - ./backend/billing/.env
+    networks:
+      - myflix-network
+
+  video-management:
+    build:
+      context: ./backend/video-management
+    ports:
+      - "4003:4003"
+    networks:
+      - myflix-network
+
+  watchlist:
+    build:
+      context: ./backend/watchlist
+    ports:
+      - "4005:4005"
+    networks:
+      - myflix-network
