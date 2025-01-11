@@ -1,4 +1,4 @@
-mkdir data
+sudo mkdir data
 sudo docker run -d -e MONGO_INITDB_ROOT_USERNAME='restheart' -e MONGO_INITDB_ROOT_PASSWORD='R3ste4rt!'  --name mongodb -v "$PWD/data:/data/db" -v "$PWD/Catalogue:/Catalogue" mongo:3.6 --bind_ip_all --auth
 sleep 20
 sudo docker  exec  mongodb mongoimport  -u restheart -p R3ste4rt! --authenticationDatabase admin --db myflixvideos --collection videos --drop --file /Catalogue/videos.json
