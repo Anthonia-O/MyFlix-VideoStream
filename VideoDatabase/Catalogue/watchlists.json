@@ -1,0 +1,12 @@
+{
+    "watchlist": {
+        "email": "testuser1@example.com",
+        "video_id": "video1"
+    }
+}
+{
+    "watchlist": {
+        "email": "testuser1@example.com",
+        "video_id": "video2"
+    }
+}
