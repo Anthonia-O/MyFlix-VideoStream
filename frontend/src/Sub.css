@@ -1,0 +1,92 @@
+/* Container styling */
+.form-containerl {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title styling */
+.form-titlel {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Subscription Details Section */
+.subscription-details {
+    margin: 1.5rem 0;
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+/* Highlight Price */
+.subscription-details strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* Error Message Styling */
+p {
+    font-size: 1.1rem;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Payment Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-containerl {
+        padding: 1.5rem;
+    }
+
+    .form-titlel {
+        font-size: 1.5rem;
+    }
+
+    .subscription-details {
+        font-size: 0.95rem;
+    }
+
+    button[type="submit"] {
+        font-size: 0.9rem;
+    }
+}
