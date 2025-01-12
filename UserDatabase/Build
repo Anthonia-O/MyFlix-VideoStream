@@ -5,11 +5,4 @@ sudo docker exec -i my-mysql mysql -uroot -psecret <<EOF
 DROP DATABASE IF EXISTS users;
 CREATE DATABASE IF NOT EXISTS users;
 USE users;
-CREATE TABLE IF NOT EXISTS accounts (
-      id SERIAL PRIMARY KEY,
-      email VARCHAR(255) UNIQUE,
-      password VARCHAR(255)
-);
-INSERT INTO accounts (email, password)
-VALUES ('test@example.com', 'test123');
 EOF
