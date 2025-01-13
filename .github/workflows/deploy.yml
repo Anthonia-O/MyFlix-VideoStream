@@ -1,0 +1,49 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  # Optional: If you want to trigger on new Docker image pushes to Docker Hub
+  # You can use a Docker Hub Webhook for automatic trigger as well.
+
+jobs:
+  deploy:
+    name: Deploy to EC2 Instance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 1: Set up SSH Key
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+
+      # Step 2: SSH into EC2 and pull the Docker image
+      - name: SSH and deploy to EC2
+        run: |
+          ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_IP }} << 'EOF'
+            docker pull ${{ secrets.DOCKER_USERNAME }}/frontend:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/authentication:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/billing:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/video-management:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
+
+            # Run containers (ensure previous containers are stopped and removed)
+            docker stop frontend api-gateway authentication billing video-management watchlist
+            docker rm frontend api-gateway authentication billing video-management watchlist
+
+            # Start containers
+            docker run -d --name frontend -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/frontend:latest
+            docker run -d --name api-gateway -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
+            docker run -d --name authentication -p 4001:4001 ${{ secrets.DOCKER_USERNAME }}/authentication:latest
+            docker run -d --name billing -p 4002:4002 ${{ secrets.DOCKER_USERNAME }}/billing:latest
+            docker run -d --name video-management -p 4003:4003 ${{ secrets.DOCKER_USERNAME }}/video-management:latest
+            docker run -d --name watchlist -p 4005:4005 ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
+          EOF
+        env:
+          EC2_IP: ${{ secrets.EC2_IP }}
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
