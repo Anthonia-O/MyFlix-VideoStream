@@ -16,24 +16,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      
       - name: Set up SSH key
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
 
+      
       - name: SSH and deploy to EC2
         run: |
-          ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_IP }} << 'EOF'
+          ssh -o StrictHostKeyChecking=no root@44.197.120.132 << 'EOF'
             docker pull ${{ secrets.DOCKER_USERNAME }}/frontend:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/authentication:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/billing:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/video-management:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
-
+            # Run containers (ensure previous containers are stopped and removed)
             docker stop frontend api-gateway authentication billing video-management watchlist
             docker rm frontend api-gateway authentication billing video-management watchlist
-
+            # Start containers
             docker run -d --name frontend -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/frontend:latest
             docker run -d --name api-gateway -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
             docker run -d --name authentication -p 4001:4001 ${{ secrets.DOCKER_USERNAME }}/authentication:latest
@@ -44,3 +46,8 @@ jobs:
         env:
           EC2_IP: ${{ secrets.EC2_IP }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+
+
+
+
+
