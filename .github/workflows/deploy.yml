@@ -16,16 +16,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      
       - name: Set up SSH key
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
 
-      
       - name: SSH and deploy to EC2
         run: |
-          ssh -o StrictHostKeyChecking=no root@44.197.120.132 << 'EOF'
+          ssh -o StrictHostKeyChecking=no root@${{ secrets.EC2_IP }} << 'EOF'
             docker pull ${{ secrets.DOCKER_USERNAME }}/frontend:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/authentication:latest
@@ -44,10 +42,4 @@ jobs:
             docker run -d --name watchlist -p 4005:4005 ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
           EOF
         env:
-          EC2_IP: ${{ secrets.EC2_IP }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-
-
-
-
-
