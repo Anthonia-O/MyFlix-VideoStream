@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.WATCHLIST_SERVICE_PORT || 4005;
-const RESTHEART_URL = process.env.RESTHEART_URL; // Example: "http://restheart:8080/watchlists"
+const RESTHEART_URL = process.env.RESTHEART_WATCHLIST_URL; // Example: "http://restheart:8080/watchlists"
 const VIDEO_SERVICE_URL = process.env.VIDEO_SERVICE_URL;
 
 app.use(express.json());
