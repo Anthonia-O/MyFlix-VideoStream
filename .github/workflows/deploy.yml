@@ -1,45 +1,40 @@
-name: CI/CD Pipeline
+name: CD Pipeline
 
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   deploy:
-    name: Deploy to EC2 Instance
+    name: Deploy to EC2
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    # Step 1: Check out the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up SSH key
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+    # Step 2: Set up SSH Agent
+    - name: Set up SSH agent
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
 
-      - name: SSH and deploy to EC2
-        run: |
-          ssh -o StrictHostKeyChecking=no root@${{ secrets.EC2_IP }} << 'EOF'
-            docker pull ${{ secrets.DOCKER_USERNAME }}/frontend:latest
-            docker pull ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
-            docker pull ${{ secrets.DOCKER_USERNAME }}/authentication:latest
-            docker pull ${{ secrets.DOCKER_USERNAME }}/billing:latest
-            docker pull ${{ secrets.DOCKER_USERNAME }}/video-management:latest
-            docker pull ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
-            # Run containers (ensure previous containers are stopped and removed)
-            docker stop frontend api-gateway authentication billing video-management watchlist
-            docker rm frontend api-gateway authentication billing video-management watchlist
-            # Start containers
-            docker run -d --name frontend -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/frontend:latest
-            docker run -d --name api-gateway -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
-            docker run -d --name authentication -p 4001:4001 ${{ secrets.DOCKER_USERNAME }}/authentication:latest
-            docker run -d --name billing -p 4002:4002 ${{ secrets.DOCKER_USERNAME }}/billing:latest
-            docker run -d --name video-management -p 4003:4003 ${{ secrets.DOCKER_USERNAME }}/video-management:latest
-            docker run -d --name watchlist -p 4005:4005 ${{ secrets.DOCKER_USERNAME }}/watchlist:latest
-          EOF
-        env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+    # Step 3: SSH into EC2 and deploy
+    - name: Deploy to EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+
+          # Log in to Docker Hub
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+          # Pull the latest Docker images
+          docker-compose pull
+
+          # Stop and remove existing containers
+          docker-compose down
+
+          # Start updated containers with .env file
+          docker-compose up -d
+        EOF
