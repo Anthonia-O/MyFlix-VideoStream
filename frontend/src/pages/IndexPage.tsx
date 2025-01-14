@@ -7,7 +7,7 @@ const IndexPage: React.FC = () => {
     <div className="containeri">
       {/* Header Section */}
       <header className="headeri">
-        <h1 className="titlei">Welcome to MyFlix 2.0</h1>
+        <h1 className="titlei">Welcome to MyFlix 3.0</h1>
         <p className="descriptioni">
           Discover a world of movies, series, and documentaries tailored to your
           preferences. Your gateway to unlimited entertainment awaits!
