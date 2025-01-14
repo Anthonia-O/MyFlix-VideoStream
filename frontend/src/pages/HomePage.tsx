@@ -99,7 +99,7 @@ const HomePage: React.FC = () => {
     <div>
       {/* Header Section */}
       <header className="headerh">
-        <h1 className="header-titleh">MyFlix</h1>
+        <h1 className="header-titleh">MyFlix 2.0</h1>
         <div className="header-actionsh">
           <button onClick={() => navigate("/home")} className="header-buttonh">
             Home
